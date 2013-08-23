@@ -1,0 +1,10 @@
+# default['sshfs-fuse'][:ssh_key] = ''
+# default['sshfs-fuse'][:sssh_secret] = ''
+# default['sshfs-fuse'][:version] = '1.61'
+# default['sshfs-fuse'][:no_upload] = false
+# default['sshfs-fuse'][:bluepill] = false
+# default['sshfs-fuse'][:maxmemory] = 100
+default['sshfs-fuse'][:mounts] = []
+default['sshfs-fuse'][:fuse_url] = 'https://downloads.sourceforge.net/project/fuse/fuse-2.X/2.9.3/fuse-2.9.3.tar.gz'
+default['sshfs-fuse'][:sshfs_fuse_url] = 'http://sourceforge.net/projects/fuse/files/sshfs-fuse/2.4/sshfs-fuse-2.4.tar.gz'
+default['sshfs-fuse'][:fuse_mirror] = 'voxel'
