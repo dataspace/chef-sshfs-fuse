@@ -1,3 +1,4 @@
+name              "SSHFS FUSE"
 maintainer       "Gary Smith"
 maintainer_email "bk@kc.gs"
 license          "Apache 2.0"
